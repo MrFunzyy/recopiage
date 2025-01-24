@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url(classUtilitaire.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ephesis {
+    font-family: "Ephesis", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+main {
+    background-color: aqua;
+    flex: 1;
+}
+
+header {
+    width: 100%;
+    height: 20rem;
+    background-image: url(https://images.playground.com/e265144a-4886-459f-bf44-5061c4e42c6e.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h3 {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    color: transparent;
+    background-clip: text;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
